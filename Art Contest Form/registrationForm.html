@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <title>Contact Me</title>
   </head>
@@ -7,17 +7,18 @@
     body {
       background-color: #ffcc8a;
     }
-    /**give width:100%;margin:8px to the form elements (label, input, select, textarea)***/
+    /**give width:100%;margin:8px to the form elements (label, input, textarea)***/
     label,
     input,
-    select,
     textarea {
       display: block;
       padding: 5px;
       border-radius: 4px;
+      /*add css for margin and width here:*/
     }
-    /**Give text area height:100% ****/
+    /**Add css for text area height:100% ****/
     textarea {
+      
     }
     body {
       margin-left: 50px;
@@ -42,20 +43,12 @@
     <img src="image.jpg" />
     <form>
       <label>Student Name:</label>
-      <!--add an input element of type test for the student name, add a placeholder that describes the field -->
+      <!--add an input element of type text for the student name, add a placeholder that describes the field -->
 
-      <label>Grade:</label>
-      <select>
-        <option value="grade5">Grade 5</option>
-        <option value="grade6">Grade 6</option>
-        <option value="grade7">Grade 7</option>
-        <!--Add options in the dropdown for Grade 8,Grade 9,Grade 10 -->
-      </select>
       <label>Give A short brief of your ineterest in Art:</label>
       <textarea placeholder="Write something.."></textarea>
       <!--Add a button with name "submit"-->
+      
     </form>
   </body>
 </html>
-
-<p></p>
